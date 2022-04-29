@@ -1,0 +1,19 @@
+.Soda {
+    text-align: center;
+    font-size: 2rem;
+    color:rgb(170, 38, 38);
+   
+  }
+
+.Soda-link {
+    text-decoration: none;
+	font-size: 2rem;
+	color: black;
+	background-color: white;
+	padding: 1rem 2rem;
+}
+
+.Soda-link:hover {
+	color: white;
+	background-color: rgb(251, 48, 48);
+}

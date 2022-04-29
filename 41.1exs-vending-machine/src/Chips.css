@@ -1,0 +1,19 @@
+.Chips {
+    text-align: center;
+    font-size: 2rem;
+    color: rgb(139, 125, 46);
+   
+  }
+
+.Chips-link {
+    text-decoration: none;
+	font-size: 2rem;
+	color: black;
+	background-color: white;
+	padding: 1rem 2rem;
+}
+
+.Chips-link:hover {
+	color: white;
+	background-color: rgb(76, 15, 15);
+}

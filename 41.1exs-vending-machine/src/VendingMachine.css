@@ -1,0 +1,29 @@
+.VendingMachine {
+  background: url(https://thehustle.co/wp-content/uploads/2020/10/ezgif.com-optimize.gif); 
+  background-size: cover;
+  text-align: right; 
+  font-weight: bold;
+}
+
+.VendingMachine-h {
+  color: rgb(197, 233, 17);
+  padding: 0.5em;
+  font-size: 3rem;
+}
+
+.VendingMachine a {
+  padding: 0.5em 0;
+  margin: 1em;
+  width: 10em;
+  display: inline-block;
+  color: white;
+  text-decoration: none;
+  font-size: 2rem;
+
+}
+
+.VendingMachine a:hover {
+  background-color: rgba(73, 79, 198, 0.344);
+  color: white !important;
+}
+
