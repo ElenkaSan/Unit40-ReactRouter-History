@@ -28,3 +28,9 @@
 .CL a {
   color: rgb(115, 132, 32);
 }
+
+.CL-button {
+  color: rgb(65, 255, 62);
+  background-color: rgb(146, 123, 123);
+  border-radius: 20rem;
+}
