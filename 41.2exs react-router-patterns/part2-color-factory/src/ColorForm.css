@@ -1,0 +1,68 @@
+.ColorForm {
+  color: rgb(61, 61, 93);
+  font-size: 2rem;
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  flex-direction: column;
+  background: linear-gradient(160deg, #b05df5 1%, #00fcda 100%);
+  align-items: center;
+  justify-content: center;
+}
+
+.ColorForm-link a {
+  padding: 0.1em 0;
+  color: white;
+  text-decoration: none;
+  font-size: 100%;
+}
+
+.ColorForm-link a:hover {
+  color: royalblue;
+  border-radius: 20px;  
+  font-size: 100%;
+}
+
+.ColorForm button {
+  float: right;
+  width: calc(50% - 200px);
+  padding: 1em 0;
+  background-color: rgba(180, 17, 245, 0.467);
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 20px;
+
+}
+
+.ColorForm button:hover {
+  background-color: rgba(52, 162, 230, 0.641);
+  color: white !important;
+  cursor: pointer;
+}
+
+.ColorForm form {
+  width: 60%;
+  background-color: white;
+  padding: 50px;
+  border-radius: 12px;
+  
+}
+
+.ColorForm form div {
+  padding: 15px;
+}
+
+.ColorForm-label {
+  float: left;
+  width: 200px;
+  padding-right: 24px;
+}
+
+.ColorForm input {
+  float: left;
+  width: calc(50% - 200px);
+  cursor: pointer;
+  border-radius: 20px;
+  height: 5vh;
+}
+

@@ -1,0 +1,28 @@
+.ColorDetails {
+    text-align: center;
+	margin: 2rem;
+    color: rgb(221, 206, 118);
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	font-size: 3rem;
+	text-transform: uppercase;
+	text-align: center;
+	text-shadow: black 0 0 15px;
+
+  }
+
+.ColorDetails-link {
+    text-decoration: none;
+	font-size: 2rem;
+	color: white;
+	padding: 1rem 2rem;
+	border-radius: 50%;
+	background-color: rgb(198, 73, 146);
+}
+
+.ColorDetails-link:hover {
+	color: rgb(25, 137, 28);
+	background-color: rgb(15, 20, 76);
+}

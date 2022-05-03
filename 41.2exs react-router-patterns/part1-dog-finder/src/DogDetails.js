@@ -1,0 +1,29 @@
+import React from 'react';
+import { useParams, Redirect } from 'react-router-dom';
+import { Link } from 'react-router-dom';
+import './DogDetails.css';
+
+function DogDetails({ dogs }) {
+	const { name } = useParams();
+
+	const dog = dogs.find((dog) => dog.name.toLowerCase() === name.toLowerCase());
+	if (!dog) return <Redirect to='/dogs' />;
+
+	return (
+		<div className='DogDetails'>
+			<img src={dog.src} alt={dog.name} />
+			  <h2>My name is {dog.name}!</h2>
+		      <h3>I'm {dog.age} years old :)</h3>
+		        <ol className='DogDetails-ol'>
+				    {dog.facts.map((fact, i) => (
+					  <li key={i}>{fact}</li>
+				    ))}
+			    </ol>
+                <Link className='DogDetails-link' to='/'>
+			       Go Back
+                </Link>
+	 	</div>
+	);
+};
+
+export default DogDetails;

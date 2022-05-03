@@ -1,0 +1,38 @@
+.DogList {
+   text-align: center;
+   font-size: 3rem;
+   color: rgb(139, 161, 29);
+   margin: 0em;
+}
+
+.DogList-h {
+  padding: 0.5em;
+  font-size: 3rem;
+  display: flex; 
+  justify-content: center;
+   align-items: center;
+   flex-wrap: wrap;
+}
+
+.DogList img {
+	width: 400px;
+	border-radius: 5px;
+  margin: 0.2em;
+}
+
+.DogList a {
+  padding: 0.5em 0;
+  margin: 1em;
+  width: 10em;
+  display: inline-block;
+  color: rgb(196, 6, 6);
+  text-decoration: none;
+  font-size: 2rem;
+
+}
+
+.DogList a:hover {
+  background-color: rgb(73, 198, 169);
+  color: rgb(236, 29, 29) !important;
+  border-radius: 50%;
+}

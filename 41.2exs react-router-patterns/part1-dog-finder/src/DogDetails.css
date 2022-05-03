@@ -1,0 +1,27 @@
+.DogDetails {
+    text-align: center;
+    font-size: 2rem;
+    color: rgb(139, 125, 46);
+  }
+.DogDetails-ol {
+	text-align: left;
+}
+
+.DogDetails img {
+	width: 400px;
+	border-radius: 5px;
+}
+
+.DogDetails-link {
+    text-decoration: none;
+	font-size: 2rem;
+	color: white;
+	padding: 1rem 2rem;
+	border-radius: 50%;
+	background-color: rgb(198, 73, 73);
+}
+
+.DogDetails-link:hover {
+	color: rgb(25, 137, 28);
+	background-color: rgb(15, 20, 76);
+}

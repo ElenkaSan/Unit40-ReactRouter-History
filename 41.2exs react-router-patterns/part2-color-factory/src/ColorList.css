@@ -1,0 +1,30 @@
+.ColorList {
+   text-align: center;
+   font-size: 2rem;
+   margin: 0em;
+   background-color: black;
+   color: rgb(139, 161, 29);
+   padding: 3rem;
+}
+
+.ColorList-h {
+  padding: 0.5em;
+  font-size: 3rem;
+  text-shadow: rgb(227, 204, 204) 0 0 5px;
+}
+
+.ColorList a {
+  color: rgb(196, 6, 6);
+  text-decoration: none;
+  font-size: 2rem;
+
+}
+
+.ColorList a:hover {
+  color: rgb(29, 236, 29) !important;
+  border-radius: 20rem;
+}
+
+.CL a {
+  color: rgb(115, 132, 32);
+}
