@@ -9,8 +9,9 @@
 
 .Joke-votearea > * {
   margin-right: 1em;
-
+  cursor: pointer;
 }
+
 .Joke-text {
   margin-left: 1em;
   display: inline-block;
