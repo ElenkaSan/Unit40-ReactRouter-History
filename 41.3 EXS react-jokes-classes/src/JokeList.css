@@ -4,6 +4,7 @@
   width: 4em;
   margin: 200px auto 0 auto;
   color: tomato;
+  cursor: pointer;
 }
 
 .JokeList-getmore {
@@ -12,4 +13,5 @@
   border-radius: 0.5em;
   background-color: tomato;
   color: white;
+  cursor: pointer;
 }
