@@ -11,3 +11,5 @@ https://user-images.githubusercontent.com/75818489/198106278-5c2c1cfd-0cd8-4169-
 https://user-images.githubusercontent.com/75818489/198107145-a5861e6c-cd26-45c2-a7fc-8af07cb3ab05.mov
 
 ## 41.3 React History
+### Jokes classes
+<img width="882" alt="Screen Shot 2022-10-26 at 2 37 07 PM" src="https://user-images.githubusercontent.com/75818489/198108750-034f5c50-3b38-4558-bd99-a1db5908b90a.png">
